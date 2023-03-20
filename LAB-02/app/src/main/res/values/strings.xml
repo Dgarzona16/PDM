@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="weight_Title">Weight</string>
+    <string name="uom_weight">Kg</string>
+    <string name="height_Title">Height</string>
+    <string name="uom_Height">cm</string>
+    <string name="status_description">normal Range (18.5 - 24.9)</string>
+</resources>

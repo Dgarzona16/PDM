@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">32dp</dimen>
+    <dimen name="unitOfMeasure_size">24dp</dimen>
+    <dimen name="result_size">48dp</dimen>
+</resources>
