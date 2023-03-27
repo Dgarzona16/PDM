@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gap">16dp</dimen>
+    <dimen name="counter_size">48sp</dimen>
+    <dimen name="img_size">100dp</dimen>
+    <dimen name="img_gap">32dp</dimen>
+</resources>
