@@ -39,7 +39,8 @@ class MainActivity : AppCompatActivity() {
     private fun add(qty: Double) {
         var count = counter.text.toString().toDouble()
         count += qty
-        count = (count * 100.0).roundToInt() / 100.0
-        counter.text = count.toString()
+        counter.text = String.format("%.2f",count)
+        //count = (count * 100.0).roundToInt() / 100.0
+        //counter.text = count.toString()
     }
 }
