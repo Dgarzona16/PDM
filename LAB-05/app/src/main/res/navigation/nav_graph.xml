@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/movieContainerFragment">
+
+    <fragment
+        android:id="@+id/movieContainerFragment"
+        android:name="com.dgarzona.labo05.ui.MovieContainerFragment"
+        android:label="fragment_movie_container"
+        tools:layout="@layout/fragment_movie_container" >
+        <action
+            android:id="@+id/action_movieContainerFragment_to_newMovieFragment"
+            app:destination="@id/newMovieFragment" />
+        <action
+            android:id="@+id/action_movieContainerFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newMovieFragment"
+        android:name="com.dgarzona.labo05.ui.newMovieFragment"
+        android:label="fragment_new_movie"
+        tools:layout="@layout/fragment_new_movie" />
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.dgarzona.labo05.ui.MovieDetailsFragment"
+        android:label="fragment_movie_details"
+        tools:layout="@layout/fragment_movie_details" />
+</navigation>
